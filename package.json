@@ -1,0 +1,25 @@
+{
+  "name": "sonicmind",
+  "version": "1.0.0",
+  "description": "SonicMind: The New Standard in Sonic Experience",
+  "main": ""main": "SonicMind.js",
+    "start": "node server.js", // Comando para iniciar o servidor
+    "test": "mocha" // Comando para executar testes (se aplicável)
+  },
+  "dependencies": {
+    "express": "^4.17.1", // Dependência para criar o servidor web
+    "mongodb": "^4.1.0", // Dependência para interagir com o banco de dados MongoDB (se aplicável)
+    // Outras dependências do seu projeto
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3", // Dependência de desenvolvimento para testes
+    // Outras dependências de desenvolvimento do seu projeto
+  },
+  "author": "Mr. Ross",
+  "license": "MIT", // Escolha a licença apropriada para o seu projeto
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrRickRoss/SonicMind.git" // URL do repositório do GitHub
+  },
+  "keywords": ["music", "AI", "sonic experience"] // Palavras-chave relacionadas ao seu projeto
+}
